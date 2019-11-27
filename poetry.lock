@@ -15,11 +15,6 @@ wrapt = ">=1.11.0,<1.12.0"
 python = "<3.8"
 version = ">=1.4.0,<1.5"
 
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
-
 [[package]]
 category = "main"
 description = "Composable command line interface toolkit"
@@ -27,11 +22,6 @@ name = "click"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "7.0"
-
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
 
 [[package]]
 category = "dev"
@@ -42,11 +32,6 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "0.4.1"
 
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
-
 [[package]]
 category = "dev"
 description = "A Python utility / library to sort Python imports."
@@ -55,10 +40,13 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "4.3.21"
 
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
+[[package]]
+category = "main"
+description = "Identify specific nodes in a JSON document (RFC 6901)"
+name = "jsonpointer"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.0"
 
 [[package]]
 category = "dev"
@@ -68,11 +56,6 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "1.4.3"
 
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
-
 [[package]]
 category = "dev"
 description = "McCabe checker, plugin for flake8"
@@ -80,11 +63,6 @@ name = "mccabe"
 optional = false
 python-versions = "*"
 version = "0.6.1"
-
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
 
 [[package]]
 category = "dev"
@@ -99,11 +77,6 @@ mypy-extensions = ">=0.4.0,<0.5.0"
 typed-ast = ">=1.4.0,<1.5.0"
 typing-extensions = ">=3.7.4"
 
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
-
 [[package]]
 category = "dev"
 description = "Experimental type system extensions for programs checked with the mypy typechecker."
@@ -111,11 +84,6 @@ name = "mypy-extensions"
 optional = false
 python-versions = "*"
 version = "0.4.3"
-
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
 
 [[package]]
 category = "dev"
@@ -131,11 +99,6 @@ colorama = "*"
 isort = ">=4.2.5,<5"
 mccabe = ">=0.6,<0.7"
 
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
-
 [[package]]
 category = "main"
 description = "New TOML encoder/decoder"
@@ -147,11 +110,6 @@ version = "0.2.4"
 [package.dependencies]
 click = ">=7.0,<8.0"
 
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
-
 [[package]]
 category = "dev"
 description = "Python 2 and 3 compatibility utilities"
@@ -159,11 +117,6 @@ name = "six"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*"
 version = "1.13.0"
-
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
 
 [[package]]
 category = "dev"
@@ -173,11 +126,6 @@ optional = false
 python-versions = "*"
 version = "1.4.0"
 
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
-
 [[package]]
 category = "dev"
 description = "Backported and Experimental Type Hints for Python 3.5+"
@@ -185,11 +133,6 @@ name = "typing-extensions"
 optional = false
 python-versions = "*"
 version = "3.7.4.1"
-
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
 
 [[package]]
 category = "dev"
@@ -199,13 +142,8 @@ optional = false
 python-versions = "*"
 version = "1.11.2"
 
-[package.source]
-reference = "bhdg"
-type = "legacy"
-url = "https://phoenix.bhdgsystematic.com/cargobay/py/modeltech/project/+simple"
-
 [metadata]
-content-hash = "b532a5d88e818148baf12ee9db952a940e7cf279f708cb767b9127609859105c"
+content-hash = "371cbd1bd3fa1c570e8d16143cdf390917aa5ca0f154ceb65c10a65473b73799"
 python-versions = "^3.7"
 
 [metadata.hashes]
@@ -213,6 +151,7 @@ astroid = ["71ea07f44df9568a75d0f354c49143a4575d90645e9fead6dfb52c26a85ed13a", "
 click = ["2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13", "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"]
 colorama = ["05eed71e2e327246ad6b38c540c4a3117230b19679b875190486ddd2d721422d", "f8ac84de7840f5b9c4e3347b3c1eaa50f7e49c2b07596221daec5edaabbd7c48"]
 isort = ["54da7e92468955c4fceacd0c86bd0ec997b0e1ee80d97f67c35a78b719dccab1", "6e811fcb295968434526407adb8796944f1988c5b65e8139058f2014cbe100fd"]
+jsonpointer = ["c192ba86648e05fdae4f08a17ec25180a9aef5008d973407b581798a83975362", "ff379fa021d1b81ab539f5ec467c7745beb1a5671463f9dcc2b2d458bd361c1e"]
 lazy-object-proxy = ["0c4b206227a8097f05c4dbdd323c50edf81f15db3b8dc064d08c62d37e1a504d", "194d092e6f246b906e8f70884e620e459fc54db3259e60cf69a4d66c3fda3449", "1be7e4c9f96948003609aa6c974ae59830a6baecc5376c25c92d7d697e684c08", "4677f594e474c91da97f489fea5b7daa17b5517190899cf213697e48d3902f5a", "48dab84ebd4831077b150572aec802f303117c8cc5c871e182447281ebf3ac50", "5541cada25cd173702dbd99f8e22434105456314462326f06dba3e180f203dfd", "59f79fef100b09564bc2df42ea2d8d21a64fdcda64979c0fa3db7bdaabaf6239", "8d859b89baf8ef7f8bc6b00aa20316483d67f0b1cbf422f5b4dc56701c8f2ffb", "9254f4358b9b541e3441b007a0ea0764b9d056afdeafc1a5569eee1cc6c1b9ea", "9651375199045a358eb6741df3e02a651e0330be090b3bc79f6d0de31a80ec3e", "97bb5884f6f1cdce0099f86b907aa41c970c3c672ac8b9c8352789e103cf3156", "9b15f3f4c0f35727d3a0fba4b770b3c4ebbb1fa907dbcc046a1d2799f3edd142", "a2238e9d1bb71a56cd710611a1614d1194dc10a175c1e08d75e1a7bcc250d442", "a6ae12d08c0bf9909ce12385803a543bfe99b95fe01e752536a60af2b7797c62", "ca0a928a3ddbc5725be2dd1cf895ec0a254798915fb3a36af0964a0a4149e3db", "cb2c7c57005a6804ab66f106ceb8482da55f5314b7fcb06551db1edae4ad1531", "d74bb8693bf9cf75ac3b47a54d716bbb1a92648d5f781fc799347cfc95952383", "d945239a5639b3ff35b70a88c5f2f491913eb94871780ebfabb2568bd58afc5a", "eba7011090323c1dadf18b3b689845fd96a61ba0a1dfbd7f24b921398affc357", "efa1909120ce98bbb3777e8b6f92237f5d5c8ea6758efea36a473e1d38f7d3e4", "f3900e8a5de27447acbf900b4750b0ddfd7ec1ea7fbaf11dfa911141bc522af0"]
 mccabe = ["ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42", "dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"]
 mypy = ["1521c186a3d200c399bd5573c828ea2db1362af7209b2adb1bb8532cea2fb36f", "31a046ab040a84a0fc38bc93694876398e62bc9f35eca8ccbf6418b7297f4c00", "3b1a411909c84b2ae9b8283b58b48541654b918e8513c20a400bb946aa9111ae", "48c8bc99380575deb39f5d3400ebb6a8a1cb5cc669bbba4d3bb30f904e0a0e7d", "540c9caa57a22d0d5d3c69047cc9dd0094d49782603eb03069821b41f9e970e9", "672e418425d957e276c291930a3921b4a6413204f53fe7c37cad7bc57b9a3391", "6ed3b9b3fdc7193ea7aca6f3c20549b377a56f28769783a8f27191903a54170f", "9371290aa2cad5ad133e4cdc43892778efd13293406f7340b9ffe99d5ec7c1d9", "ace6ac1d0f87d4072f05b5468a084a45b4eda970e4d26704f201e06d47ab2990", "b428f883d2b3fe1d052c630642cc6afddd07d5cd7873da948644508be3b9d4a7", "d5bf0e6ec8ba346a2cf35cb55bf4adfddbc6b6576fcc9e10863daa523e418dbb", "d7574e283f83c08501607586b3167728c58e8442947e027d2d4c7dcd6d82f453", "dc889c84241a857c263a2b1cd1121507db7d5b5f5e87e77147097230f374d10b", "f4748697b349f373002656bf32fede706a0e713d67bfdcf04edf39b1f61d46eb"]
